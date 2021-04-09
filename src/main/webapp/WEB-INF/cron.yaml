@@ -1,0 +1,4 @@
+cron:
+- description: "create Super User"
+  url: /rest/user/utils/create-su
+  schedule: every 1 minutes
